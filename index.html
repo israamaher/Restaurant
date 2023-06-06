@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5f7cb4fd6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main  >  
+    <div class="container">      
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  ">
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> Contact</a>
+          </li>
+        
+          <button class="btn btn-outline-light" id="myBtn" type="submit"  onclick="document.getElementById('id').style.visibility= 'visible';document.getElementById('nav').style.position='static'" >Make a Reservation</button>
+       
+      </ul>
+     
+        
+     
+    </div>
+  </div>
+    </nav>
+      <div class="content">  
+    <h3>welcome to </h3>
+    <h1 >GRAND RESTAURANT</h1>
+    <p>MAKING THE DELICIOUS PREMIUM FOOD SINCE 1990    </p>
+    <p> BOOK ONLINE OR CALL (1800)456-6743    </p>
+      </div>
+    </div>  
+</main> 
+ <section class="booking" id="id">
+    <div class="container">  
+   <button  onclick="document.getElementById('id').style.visibility= 'hidden';document.getElementById('nav').style.position='fixed','top=0px'">     <i class="fa fa-close" aria-hidden="true"></i>  </button>
+    <h4>Table</h4>
+    <h3>BOOKING</h3>
+ 
+    <form action="">
+        <fieldset>  
+        <label for="">Name* <input type="text"></label>
+        <label for="">Email* <input type="email"></label>
+        <label for="">Phone*<input type="number"></label>
+    </fieldset>  
+
+    <fieldset>
+        <label for="">Date* <input type="date"></label>
+        <label for="">Time* <input type="text"></label>
+        <label for="">State* <select name="" id="">
+            <option value="">1 person</option>
+            <option value=""> 2 people</option>
+            <option value=""> 3 people</option>
+            <option value="">4 people</option>
+            <option value="">5 people</option>
+            <option value="">6 people</option>
+            <option value="">7 people</option>
+            <option value="">8 people</option>
+            <option value="">9 people</option>
+            <option value="">10 people</option>
+            <option value="">11 people</option>
+            <option value="">12 people</option>
+            <option value="">13 people</option>
+            <option value=""> 14 people</option>
+            <option value="">15 people</option>
+            <option value="">16 people</option>
+            <option value="">17 people</option>
+            <option value="">18 people</option>
+            <option value="">19 people</option>
+            <option value="">20 people</option>
+            <option value="">20+people</option>
+        </select></label>
+    </fieldset> 
+
+    <label for=""> Special Requests <textarea name="" id="" cols="80" rows="5"></textarea></label>
+       
+    <input type="submit" value="Book Now" />
+    </form>
+
+</div>
+ </section>
+<section class="story" >
+    <h3>UNTIL I DISCOVERED COOKING I WAS NEVER</h3>
+    <h3>REALLY INTERESTED IN ANYTHING</h3>
+    <p>OUR FOUNDER JOHN PHILLIPE</p>
+    <p class="font">John Phillipe </p>
+
+    <div class="container ">
+        <div class="row"> 
+            <div class="col-3"> 
+                <img src="img/nataliya-solomakha-CUPAGFmg7eI-unsplash.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="img/eiliv-sonas-aceron-cWqxHoa3zXk-unsplash-768x1152.jpg" alt="">
+            </div>
+            <div class="col-4 ">
+                <h3 class="font">Discover</h3>
+                <h2>OUR STORY</h2>
+                <p > Sed ut perspiciatis unde omnis iste natus error   </p> 
+                 <p> sit voluptatem accusantium doloremque  </p>   <p>  laudantium, totam rem aperiam,
+                      eaque ipsa quae  </p>  <p> ab illo inventore veritatis et quasi. </p>
+                      <button > Learn More</button>
+            </div>
+        </div>
+    </div>
+
+</section> 
+
+<section class="menu container-fluid">
+    <div class="layer1"> 
+
+     <h2>Delightful</h2>
+     <h3>EXPERIENCE</h3>
+        <div class="row ">
+            <div class="col-3"> 
+                <figure>  
+                <img src="img/menu 1.jpg" alt="">
+                <h4> Italian Source Mushroom</h4>
+                <h4> $19.9</h4>
+                <p>Mushroom / Garlic / Veggies</p>
+            </figure> 
+            </div>
+
+            <div class="col-3 ">  
+                <img src="img/menu2.jpg" alt="">
+                <h4>Fried Potatoes With Garlic</h4>
+                <h4>$12.0 </h4>
+                <p>Potatoes / Olive Oil / Garlic</p>
+            </div>
+
+            <div class="col-3">  
+                <img src="img/menu3.jpg" alt="">
+                <h4>Tuna Roast Source</h4>
+                <h4>$24.5 </h4>
+                <p>Tuna / Potatoes / Rice</p>
+            </div>
+
+            <div class="col-3">  
+                <img src="img/menu4.jpg" alt="">
+                <h4>Roast Pork (4 Sticks)</h4>
+                <h4>$15.5</h4>
+                <p>Pork / Veggies / Shoyu</p>
+            </div>
+        </div> 
+    </div>
+
+    <div class="layer2">
+    <div class="row">
+        <div class="col-3">  
+            <img src="img/menu5.jpg" alt="">
+            <h4>Salted Fried Chicken</h4>
+            <h4>$20.0</h4>
+            <p>Chicken / Olive Oil / Salt</p>
+        </div>
+
+        <div class="col-3">  
+            <img src="img/menu6.jpg" alt="">
+            <h4>Crab With Curry Sources</h4>
+            <h4>$24.5</h4>
+            <p>Crab / Potatoes / Rice
+            </p>
+        </div>
+
+        <div class="col-3">  
+            <img src="img/menu7.jpg" alt="">
+            <h4> Imported Salmon Steak</h4>
+            <h4>$18.9</h4>
+            <p>Salmon / Veggies / Oil</p>
+        </div>
+
+        <div class="col-3">  
+            <img src="img/menu8.jpg" alt="">
+            <h4>Baked Potato Pizza</h4>
+            <h4>$12.0</h4>
+            <p>Potato / Bread / Cheese</p>
+        </div>
+    </div>
+    <h2>Amazing</h2>
+    <h3>DELICIOUS</h3>
+    </div>
+</section>
+
+<section class="checkout">
+    <div class="container ">
+        <div class="row"> 
+            <div class="col-3"> 
+              <img src="img/ckeck1.jpg" alt="">
+              <img src="img/menu5.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="img/menu4.jpg" alt="">
+                <img src="img/ckeck4.jpg" alt="">
+            </div>
+            <div class="col-4 ">
+                <h3 class="font">Checkout</h3>
+                <h2>OUR MENU</h2>
+                <p > 732/21 Second Street, Manchester   </p> 
+                 <p> King Street, Kingston United Kingdom  </p>   
+                 <p> T: +65.4566743</p>
+     
+                      <button > Get Directions</button>
+            </div>
+        </div>
+    </div>
+        
+</section>
+
+<section class="visit">
+    
+<div class="container ">
+    <div class="row"> 
+        <div class="col-4 ">
+            <h3 class="font">Visit Our</h3>
+            <h2>RESTAURANT</h2>
+            <p > Sed ut perspiciatis unde omnis iste natus error   </p> 
+             <p> sit voluptatem accusantium doloremque  </p>   <p>  laudantium, totam rem aperiam,
+                  eaque ipsa quae  </p>  <p> ab illo inventore veritatis et quasi. </p>
+                  <button > Get Directions</button>
+        </div>
+        
+        <div class="col-3"> 
+            <img src="img/visit1.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="img/visit2.jpg" alt="">
+        </div>
+    
+    </div>
+</div>
+</section>
+
+<footer>
+    <div class="container pb-5">     
+        <div class="row">
+            <div class="col-3"> 
+                <img src="img/logo.png" alt="logo">
+                <p > Dolor church-key veniam, fap Bushwick mumblecore irure Vice consectetur 3 wolf moon sapiente literally quinoa.</p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-yelp" aria-hidden="true"></i>
+            </div>
+            <div class="col-2">
+                <h6>OVERVIEW</h6>
+                <h6> Home</h6>
+                <h6>  Food Menus</h6>
+                <h6> Online Delivery</h6>
+                <h6> About Us</h6>
+                <h6> Blog Post</h6>
+            </div>
+            <div class="col-2">
+                <h6>RESOURCES</h6>
+                <h6>Hlep Center</h6>
+                <h6> Terms of Use</h6>
+                <h6> privacy policy</h6> 
+            </div>
+            <div class="col-3 contact">
+                <h6> CONTANT INFO</h6>
+                <div > 
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p> +65.4566743</p>
+            </div>
+            <div > 
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p> grandrestauranttheme.com</p>
+                </div>
+            <i class="fa fa-link" aria-hidden="true"></i>
+            <p>info@grandrestauranttheme.com</p>
+
+            </div>
+            <div class="col-2 contact">
+                <h6>LOCATION</h6>
+                <div>  
+                <i class="fa-solid fa-location-dot"></i>
+                 
+                <p> 732/21 Second Street,</p> <p> Manchester, King Street, </p> <p>  Kingston United Kingdom</p>
+            
+               </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container">
+            <p>  © Copyright Grand Restaurant Theme Demo - Theme by ThemeGoods</p>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Our Chef</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"> Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> Delivery</a>
+                  </li>
+              
+            </ul>
+           
+              
+           
+          </div>
+        </div>
+          </nav>
+</footer>
+
+
+
+
+
+<script>
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>

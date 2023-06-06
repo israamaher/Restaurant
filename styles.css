@@ -1,0 +1,330 @@
+main{
+    background-image: url(img/cover.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    
+    
+    
+} 
+nav{
+   
+   margin: 0px 105px;
+   background-color: #0c1227;
+   
+   
+}
+nav img
+{
+width: 100px;
+height: 40px;
+} 
+.navbar-nav
+{
+    margin-left: auto; 
+   
+}
+.content
+{
+   padding: 250px 0; 
+   font-weight: bold;
+
+}
+.content h3{
+    font-family: 'Kristi', sans-serif; 
+    font-size:4rem;
+    color: #CFA670;   
+}
+.content h1{
+    font-size: 4rem;
+}
+
+
+
+
+/* secend section */
+.story ,.checkout,.visit{
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    
+    
+}
+.story img ,.visit img{
+    width: 100%;
+    height: 60vh;
+    transform: scale(1);
+    transition:transform 1s 50ms;
+}
+
+.story img:hover{
+    transform: scale(1.1);
+}
+.font{
+    font-family: 'Kristi', sans-serif; 
+    font-size:3rem;
+} 
+.story .container{
+    padding: 50px;
+}
+
+.story .col-4
+{
+  
+    height: 60vh;
+   padding-top: 50px;
+    position: absolute;
+    right: 300px; 
+    top: 330px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(197, 204, 211);
+    animation: move 3s ;
+
+}
+
+@keyframes move{
+    0%
+    {
+        position: absolute;
+       
+        right:-300px;
+    }
+    100%{
+        position: absolute;
+        right: 300px;
+        top:330px;
+    }
+}
+.story div h3,.checkout div h3,.visit div h3{
+    color: #CFA670;
+} 
+.story h2,.checkout h2,.visit h2{
+    font-weight: bolder;
+    font-size: 3rem;
+} 
+.story button,.visit button,.checkout button{
+    border: none;
+    background-color: transparent;
+    color: #CFA670;
+    font-size: larger;
+    font-weight: bold;
+    border-bottom:3px #CFA670 solid ;
+}
+
+
+/*  third section */ 
+.layer1{
+    background-image: url(img/cover2.jpg);
+    background-size: cover;
+    height: 100vh;
+  
+}
+.menu h2{
+    font-family: 'Kristi', sans-serif; 
+    color: #CFA670;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 100px;
+}
+.menu h3{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 100px;
+}
+
+.menu img{
+    width: 100%;
+    height: 40vh;
+   
+}
+.menu .col-3{
+    margin:  0px;
+    padding: 0px;
+    width: 24.8%;
+    background-color: white;
+}
+.menu h4{
+    display: inline-block;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 30px;
+    
+} 
+.menu .col-3 h4:last-of-type{
+padding-left: 80px;
+}
+
+.layer2{
+    background-image: url(img/cover3.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/*  four section */
+
+.checkout img{
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+   
+}
+.checkout .col-4{
+    height: 60vh;
+   padding-top: 50px;
+   padding-bottom: 50px;
+    position: absolute;
+    right: 300px; 
+    top: 170px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(197, 204, 211);
+    animation: moveup 3s ;
+
+}
+
+@keyframes moveup{
+    0%
+    {
+        position: absolute;
+        top:300px;
+    }
+    100%{
+        position: absolute;
+        right: 300px;
+        top:70px;
+    }
+}
+
+
+
+/* fivth section */
+
+.visit .col-4{
+    
+        height: 60vh;
+       padding-top: 50px;
+       padding-bottom: 50px;
+        background-color: white;
+        box-shadow: 0px 0px 10px 0px rgb(197, 204, 211); 
+    
+}
+
+
+/*  footer */
+
+footer{
+    background-color: #262626;
+    padding-top: 150px;
+    color: white;
+}
+footer img{
+    
+        width: 100px;
+        height: 40px;  
+        padding-bottom: 10px;      
+} 
+footer i{
+    padding: 20px;
+} 
+footer p{
+    color: #999999;
+}
+.contact i{
+    display: inline-block;
+    padding: 10px;
+    
+    
+} 
+.contact p{
+    display: inline-block;
+   
+} 
+.contact i:last-of-type{
+    justify-content: center;
+}
+footer nav{
+    background-color: #121212;
+    margin: 0px;
+}
+
+
+/*  reservation*/
+.booking{
+    
+    background-color:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:0px;left: 0px;right: 0px;
+    z-index: 452;
+    border: 2px solid white;
+    height: 100vh;
+    visibility:hidden;
+}
+
+.booking button{
+    color: white;
+    font-size: x-large;
+    background-color: transparent;
+}
+
+.booking .container{
+    width: 65%;
+    border: 2px solid white;
+    margin: 0px auto;
+    height: 100vh;
+}
+.booking h4
+{
+      font-family: 'Kristi', sans-serif; 
+   color: #CFA670;
+    text-align: center;
+       font-size: 3rem;
+     padding-top: 20px;
+    
+} 
+
+.booking h3{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+form{
+    color: white;
+   padding-bottom: 50px;
+    font-size: large;
+   
+} 
+
+ input,select,textarea{
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid #CFA670;
+    width: 100%;
+    color: white;
+  
+} 
+
+fieldset{
+    margin-bottom:20px ;
+    padding: 2rem 0;
+} 
+
+label {
+    display: block;
+    margin: 1rem ;
+    text-align: left;
+  }
+
+    
+input[value="Book Now"]{
+    width: 25%;
+    padding: 10px 0px;
+    display: block;
+   margin: auto;
+    background-color: #CFA670;
+    color: white; 
+    border: 2px solid #CFA670;
+    text-align: center;
+}
