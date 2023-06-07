@@ -1,5 +1,5 @@
 main{
-    background-image: url(img/cover.jpg);
+    background-image: url(../img/cover.jpg);
     height: 100vh;
     background-size: cover;
     color: white;
@@ -114,7 +114,7 @@ height: 40px;
 
 /*  third section */ 
 .layer1{
-    background-image: url(img/cover2.jpg);
+    background-image: url(../img/cover2.jpg);
     background-size: cover;
     height: 100vh;
   
@@ -156,7 +156,7 @@ padding-left: 80px;
 }
 
 .layer2{
-    background-image: url(img/cover3.jpg);
+    background-image: url(../img/cover3.jpg);
     height: 100vh;
     background-size: cover;
 }
