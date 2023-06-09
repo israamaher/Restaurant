@@ -356,14 +356,24 @@ input[value="Book Now"]{
     
 }
 
-@media only screen and (min-width: 600px) {
-    
+@media only screen and (min-width: 600px )  {
+ 
+    .story .col-lg-4,.checkout .col-lg-4,.visit .col-lg-4{
+        position: static;
+        height: auto;
+        padding: 50px;
+        
+        
+    }
 }
 @media only screen and (min-width: 768px) {
-    
+    .menu .col-md-6{
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 992px  ) {
-    
+
+   
 }
 @media only screen and (min-width: 1200px) {
     
