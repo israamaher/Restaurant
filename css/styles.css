@@ -68,7 +68,7 @@ height: 40px;
     padding: 50px;
 }
 
-.story .col-4
+.story .col-lg-4
 {
   
     height: 60vh;
@@ -97,10 +97,12 @@ height: 40px;
 }
 .story div h3,.checkout div h3,.visit div h3{
     color: #CFA670;
+    
 } 
 .story h2,.checkout h2,.visit h2{
     font-weight: bolder;
     font-size: 3rem;
+    
 } 
 .story button,.visit button,.checkout button{
     border: none;
@@ -116,7 +118,9 @@ height: 40px;
 .layer1{
     background-image: url(../img/cover2.jpg);
     background-size: cover;
-    height: 100vh;
+   
+  
+    
   
 }
 .menu h2{
@@ -124,7 +128,7 @@ height: 40px;
     color: #CFA670;
     text-align: center;
     font-size: 4rem;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .menu h3{
     color: white;
@@ -133,12 +137,13 @@ height: 40px;
     padding-bottom: 100px;
 }
 
+
 .menu img{
     width: 100%;
     height: 40vh;
    
 }
-.menu .col-3{
+.menu .row div{
     margin:  0px;
     padding: 0px;
     width: 24.8%;
@@ -157,7 +162,7 @@ padding-left: 80px;
 
 .layer2{
     background-image: url(../img/cover3.jpg);
-    height: 100vh;
+   
     background-size: cover;
 }
 
@@ -170,7 +175,7 @@ padding-left: 80px;
     height: 30vh;
    
 }
-.checkout .col-4{
+.checkout .col-lg-4{
     height: 60vh;
    padding-top: 50px;
    padding-bottom: 50px;
@@ -200,7 +205,7 @@ padding-left: 80px;
 
 /* fivth section */
 
-.visit .col-4{
+.visit .col-lg-4{
     
         height: 60vh;
        padding-top: 50px;
@@ -327,4 +332,39 @@ input[value="Book Now"]{
     color: white; 
     border: 2px solid #CFA670;
     text-align: center;
+}
+
+/* responsive*/
+
+@media only screen and (max-width: 600px) {
+    .menu .row div{
+        width: 100%;
+    }
+
+    .story img ,.visit img{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .story .col-lg-4,.checkout .col-lg-4,.visit .col-lg-4{
+        position: static;
+        height: auto;
+        padding: 50px;
+        animation: none;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+@media only screen and (min-width: 768px) {
+    
+}
+@media only screen and (min-width: 992px  ) {
+    
+}
+@media only screen and (min-width: 1200px) {
+    
 }
