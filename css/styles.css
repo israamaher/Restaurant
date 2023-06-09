@@ -262,7 +262,7 @@ footer nav{
     top:0px;left: 0px;right: 0px;
     z-index: 452;
     border: 2px solid white;
-    height: 100vh;
+    height: auto;
     visibility:hidden;
 }
 
@@ -276,7 +276,7 @@ footer nav{
     width: 65%;
     border: 2px solid white;
     margin: 0px auto;
-    height: 100vh;
+    height: auto;
 }
 .booking h4
 {
