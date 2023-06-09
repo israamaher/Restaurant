@@ -345,7 +345,10 @@ input[value="Book Now"]{
         width: 100%;
         height: 40vh;
     }
-
+    .story .col-6,.checkout .col-6,.visit .col-6{
+        padding: 0px;
+        margin:auto;
+    }
     .story .col-lg-4,.checkout .col-lg-4,.visit .col-lg-4{
         position: static;
         height: auto;
@@ -361,10 +364,9 @@ input[value="Book Now"]{
     .story .col-lg-4,.checkout .col-lg-4,.visit .col-lg-4{
         position: static;
         height: auto;
-        padding: 50px;
-        
-        
+        padding: 50px;     
     }
+   
 }
 @media only screen and (min-width: 768px) {
     .menu .col-md-6{
